@@ -107,7 +107,7 @@ namespace Localization
             app.UseMvcWithDefaultRoute();
             #endregion
 
-            app.UseStaticFiles();
+            //app.UseStaticFiles();
 
             app.UseRequestLocalization();
 
